@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>张凯文大作</title>
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <div id = "main" style="width: 600px;height: 400px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById("main"))
+        var Option ={
+            title:{
+                text:'未来一周气温变化范围'
+            },
+            tooltip:{},
+            legend:{},
+            toolbox:{},
+
+
+            xAxis:[{
+                data:['周一','周二','周三','周四','周五','周六','周日']
+            }],
+            yAxis:{ },
+            series:[{
+                name:'最高气温',
+                type: 'line',
+                data: [21,21,25,23,22,23,20]
+            },
+            {
+                name:'最低气温',
+                type: 'line',
+                data: [10,12,12,15,13,12,10]
+            }]
+        };
+        myChart.setOption(Option);    
+        </script>
+
+</body>
+</html>

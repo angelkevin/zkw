@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>张凯文大作</title>
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <div id = "main" style="width: 600px;height: 400px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById("main"))
+        var Option ={
+            title:{
+                text:'销售量'
+            },
+            tooltip:{},
+            legend:{},
+            toolbox:{},
+            dataset:{
+                source :[
+                    ['年月销售量','2018','2019','2020',],
+                    ['洗衣机',430,858,937],
+                    ['空调',831,734,551],
+                    ['电视',864,652,825],
+                    ['路由器',724,539,391],
+                ]
+            },
+            xAxis:{type:"category"},
+            yAxis:{},
+            series: [
+                {type:'bar'},
+                {type:'bar'},
+                {type:'bar'}
+            ]
+        };
+        myChart.setOption(Option);    
+        </script>
+
+</body>
+</html>
