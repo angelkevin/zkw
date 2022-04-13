@@ -1,0 +1,36 @@
+<annotation>
+    <folder>train_images</folder>
+    <filename>588.png</filename>
+    <size>
+        <width>400</width>
+        <height>267</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>with_mask</name>
+        <bndbox>
+            <xmin>81</xmin>
+            <ymin>109</ymin>
+            <xmax>104</xmax>
+            <ymax>138</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>with_mask</name>
+        <bndbox>
+            <xmin>182</xmin>
+            <ymin>69</ymin>
+            <xmax>199</xmax>
+            <ymax>101</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>with_mask</name>
+        <bndbox>
+            <xmin>326</xmin>
+            <ymin>122</ymin>
+            <xmax>354</xmax>
+            <ymax>152</ymax>
+        </bndbox>
+    </object>
+</annotation>

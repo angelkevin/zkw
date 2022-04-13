@@ -1,0 +1,18 @@
+<annotation>
+    <folder>train_images</folder>
+    <filename>601.png</filename>
+    <size>
+        <width>301</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>with_mask</name>
+        <bndbox>
+            <xmin>84</xmin>
+            <ymin>163</ymin>
+            <xmax>184</xmax>
+            <ymax>300</ymax>
+        </bndbox>
+    </object>
+</annotation>

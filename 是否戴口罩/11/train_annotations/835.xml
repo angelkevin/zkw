@@ -1,0 +1,18 @@
+<annotation>
+    <folder>train_images</folder>
+    <filename>835.png</filename>
+    <size>
+        <width>267</width>
+        <height>400</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>mask_weared_incorrect</name>
+        <bndbox>
+            <xmin>57</xmin>
+            <ymin>86</ymin>
+            <xmax>162</xmax>
+            <ymax>184</ymax>
+        </bndbox>
+    </object>
+</annotation>
