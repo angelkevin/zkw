@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/1.css' %}">
+</head>
+<div class="container">
+    <div class="login-wrapper">
+        <div class="header">Login</div>
+        <div class="form-wrapper">
+            <form action="/login/" method="get">
+                <input type="text" name="username" placeholder="username" class="input-item">
+                <input type="password" name="password" placeholder="password" class="input-item">
+                <input class="btn" type="submit" value="Login">
+            </form>
+        </div>
+        <div class="msg">
+            Don't have account?
+            <a href="/signup/">Sign up</a>
+        </div>
+    </div>
+</div>
+</html>
